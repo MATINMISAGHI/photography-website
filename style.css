@@ -7,15 +7,15 @@
 }
 
 @font-face {
-    font-family: 'Ruhl';
+    font-family: "Ruhl";
     src: url(./fonts/FrankRuhlLibre-Regular.ttf);
 }
 @font-face {
-    font-family: 'Ruhl Medium';
+    font-family: "Ruhl Medium";
     src: url(./fonts/FrankRuhlLibre-Medium.ttf);
 }
 @font-face {
-    font-family: 'Vibes';
+    font-family: "Vibes";
     src: url(./fonts/GreatVibes-Regular.ttf);
 }
 
@@ -37,7 +37,12 @@ h1 {
     font-size: var(--header1);
 }
 
-li, button, label, input, p, a{
+li,
+button,
+label,
+input,
+p,
+a {
     font-size: var(--text);
 }
 
@@ -49,7 +54,8 @@ h3 {
     font-size: var(--header3);
 }
 
-h4, h5 {
+h4,
+h5 {
     font-size: var(--header4);
 }
 
@@ -70,12 +76,12 @@ a {
 }
 
 body {
-    font-family: 'Ruhl', sans-serif;
+    font-family: "Ruhl", sans-serif;
     animation: opening 1s ease-in-out;
 }
 
 h1 {
-    font-family: 'Vibes', sans-serif;
+    font-family: "Vibes", sans-serif;
 }
 
 /* Nav Section */
@@ -90,7 +96,7 @@ nav {
     margin: auto;
     display: flex;
     align-items: center;
-    min-height: 10vh;  
+    min-height: 10vh;
     padding: 2rem 0rem;
 }
 
@@ -139,7 +145,7 @@ nav {
     z-index: 1;
 }
 
-.hero-elena {
+.hero-jane {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -152,7 +158,7 @@ nav {
     z-index: -1;
     transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
     animation: plant-enterance 1.5s ease-in-out 0.5s forwards,
-    plant-shake 2.5s infinite ease alternate-reverse 2s;
+        plant-shake 2.5s infinite ease alternate-reverse 2s;
     transform-origin: bottom;
     max-height: 80%;
 }
@@ -215,11 +221,11 @@ nav {
 
 .about-text h3 {
     padding: 2rem 0rem;
-    font-family: 'Ruhl Medium';
+    font-family: "Ruhl Medium";
 }
 
 .about-text h2 {
-    font-family: 'Vibes';
+    font-family: "Vibes";
     padding: 4rem;
 }
 
@@ -381,7 +387,7 @@ footer h4 {
         background-color: white;
     }
 
-    .toggle .line2{
+    .toggle .line2 {
         opacity: 0;
     }
 
